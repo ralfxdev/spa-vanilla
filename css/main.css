@@ -1,0 +1,31 @@
+main{
+    width: 100%;
+    height: 100%;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+}
+
+.dog-listing{
+    width: 200px;
+    height: auto;
+    color: black;
+    border: 1px solid black;
+    background-color: #f0f0f0;
+}
+.dog-listing a{
+    text-decoration: none;
+    color: black;
+}
+.dog-listing h3{
+    text-align: center;
+    margin: 0;
+}
+.dog-listing img{
+    width: 100px;
+    height: 100px;
+}
